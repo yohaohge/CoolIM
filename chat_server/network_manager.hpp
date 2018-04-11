@@ -4,7 +4,7 @@
 
 class NetworkManager{
 public:
-    int listen();    
+    void start(); 
 };
 
 #endif

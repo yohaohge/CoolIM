@@ -1,5 +1,5 @@
-chat_client : main.o network_manager.o 
-	g++  -o chat_client main.o  network_manager.o csapp.o -lpthread
+chat_service : main.o network_manager.o 
+	g++  -o chat_sevrice main.o  network_manager.o csapp.o -lpthread
 
 main.o : main.cpp
 	g++ -c main.cpp

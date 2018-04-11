@@ -1,4 +1,4 @@
-#include<iostram>
+#include<iostream>
 #include "network_manager.hpp"
 
 using namespace std;
@@ -6,8 +6,7 @@ using namespace std;
 int main(){
 
     NetworkManager manager;
-    while(true){
-       //per connect per thread
-    }
+    manager.start();
+        
     return 0;
 }

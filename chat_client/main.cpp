@@ -10,7 +10,8 @@ int main(){
     while(true){
         cout << "input message > " ;
         string str;
-        cin >> str;
+        //cin >> str;
+        getline(cin,str);
         manager.sendMsg(str);        
         cout << endl;       
     }
